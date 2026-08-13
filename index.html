@@ -36,7 +36,7 @@
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
       padding: 1.1rem 4rem;
-      background: rgba(255,255,255,0.92);
+      background: rgba(13,42,30,0.97);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--rule);
     }
@@ -48,10 +48,10 @@
     .nav-links { display: flex; gap: 2.2rem; list-style: none; }
     .nav-links a {
       font-size: 0.82rem; font-weight: 500; letter-spacing: 0.04em;
-      text-transform: uppercase; color: var(--ink-soft);
+      text-transform: uppercase; color: rgba(255,255,255,0.7);
       text-decoration: none; transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--green); }
+    .nav-links a:hover { color: var(--accent); }
 
     /* HERO */
     .hero {
@@ -319,7 +319,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">FMCG 4.0</div>
+  <div class="nav-logo"><img src="logo.png" alt="FMCG 4.0" height="42" style="display:block;"></div>
   <ul class="nav-links">
     <li><a href="#framework">Framework</a></li>
     <li><a href="#architecture">Architecture</a></li>
